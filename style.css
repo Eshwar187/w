@@ -1,0 +1,212 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    scroll-behavior: smooth;
+    }
+    
+    nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px 0;
+    z-index: 1000;
+    }
+    
+    nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    }
+    
+    nav ul li {
+    margin: 0 20px;
+    }
+    
+    nav ul li a {
+    color: #e2d1d1;
+    text-decoration: none;
+    font-size: 1.7rem;
+    transition: color 1.0s ease-in-out;
+    }
+    
+    nav ul li a:hover {
+    color: #f90808;
+    }
+    
+    /* Home Section */
+    #home {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000a0d, #0f110f);
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .headline {
+    font-size: 3.5rem;
+    color: #eb1818;
+    perspective: 1000px;
+    text-align: center;
+    transition: all 1.3s ease;
+    }
+    
+    .headline span {
+    color: #f50707;
+    }
+    
+    .headline:hover {
+    transform: rotateY(360deg);
+    }
+    
+    .scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    }
+    
+    /* About Section */
+    #about {
+    background: #222;
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    #about h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+    }
+    
+    #about p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    }
+    
+    .skills {
+    margin-top: 40px;
+    }
+    
+    .skills h3 {
+    font-size: 1.8rem;
+    }
+    
+    .skills ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .skills ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    }
+    
+    /* Projects Section */
+    #projects {
+    background: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    #projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    }
+    
+    .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    
+    .project-item {
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .project-item:hover {
+    transform: translateY(-10px);
+    }
+    
+    .project-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .project-content {
+    padding: 20px;
+    }
+    
+    .project-content h3 {
+    color: #ff2200;
+    font-size: 1.5rem;
+    }
+    
+    .project-content p {
+    margin: 10px 0;
+    }
+    
+    .project-content a {
+    color: #ffdf00;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    /* Contact Section */
+    #contact {
+    background: #0d0d0d;
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    #contact h2 {
+    font-size: 2.5rem;
+    color: #ff2a00;
+    margin-bottom: 40px;
+    }
+    
+    form input, form textarea {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    }
+    
+    form button {
+    padding: 15px 30px;
+    background-color: #00ffae;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    }
+    
+    form button:hover {
+    background-color: #00d4a7;
+    }
+    img{
+        margin-top: 300px;
+        margin-left: 600px;
+        height: 23rem;
+        width: 25rem;
+        background-position: cover;
+    }
